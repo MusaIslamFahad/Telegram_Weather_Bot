@@ -59,7 +59,7 @@ Follow these steps to set up and run your Telegram Weather Bot:
 
 4.  **Run the Script:**
     ```bash
-    python bot.py
+    Telegram Weather Bot.py
     ```
 
 5.  **Interact with your Bot on Telegram:**
