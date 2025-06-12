@@ -70,10 +70,12 @@ def stop(message):
 def send_welcome(message):
     bot.reply_to(message, "Hello, I am ready to serve you.")
 
-
 # Set the listener
 bot.set_update_listener(start)
 bot.set_update_listener(stop)
 # Run the bot
 bot.infinity_polling()
+
+
+
 
