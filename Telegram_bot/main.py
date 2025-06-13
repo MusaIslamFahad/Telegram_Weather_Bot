@@ -49,7 +49,6 @@ def sendWeather(message):
         message,
         text="The current weather details in Dhaka is: \n\n" + weather_text)
 
-
 # Start Weather updates
 @bot.message_handler(commands=['start'])
 def start(message):
