@@ -64,7 +64,6 @@ def stop(message):
     scheduler.remove_all_jobs()
     bot.send_message(message.chat.id, text="Weather updates stopped successfully.")
 
-
 # Test command
 @bot.message_handler(commands=['test'])
 def send_welcome(message):
@@ -75,6 +74,8 @@ bot.set_update_listener(start)
 bot.set_update_listener(stop)
 # Run the bot
 bot.infinity_polling()
+
+
 
 
 
